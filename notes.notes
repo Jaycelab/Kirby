@@ -1,0 +1,6 @@
+- gameSetup - This function is called when the game is first started. It sets up the game board and the players.
+- loadSprites - This function loads the sprites for the game. 1st parameter is the name, 2nd parameter is the path to the image.
+- sliceX and sliceY is how the images are sliced up. This is used to animate the sprites.
+- Each tileset or sprite is around 16x16 pixels. There are 9 different sprites on the X axis and 10 sprites on the Y axis
+- anims - This is an object that holds all the animations for the game. Each animation is an array of frames. Each frame is an object that holds the tileset name and the index of the tileset.
+- Frame 0 is the idleState of the sprite
